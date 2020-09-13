@@ -38,6 +38,10 @@
     display:flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 80px;
-    width: 15vw;
+    margin-right: 50px;
+    width: 20vw;
+}
+
+.header__right > p, .rightIcons {
+    cursor: pointer;
 }

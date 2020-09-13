@@ -2,9 +2,10 @@ import React, {useState} from 'react'
 import './Banner.css'
 import { Button } from "@material-ui/core";
 import Search from './Search'
+import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
 
 function Banner() {
-
+    const history = useHistory()
     const [showSearch, setShowSearch] = useState(false)
     
     return (
@@ -20,7 +21,9 @@ function Banner() {
                     <p className="large">Get out and stretch your imagination</p>
                 </div>
                 <p className="small">Plan a different kind of getaway to uncover the hidden gems near you</p>
-                <Button variant="outlined">Explore nearby</Button>
+                <Button variant="outlined" onClick={() => history.push('./searchPage')}>
+                    Explore nearby
+                </Button>
             </div>
         </div>
     )
