@@ -7,7 +7,7 @@ A Frontend clone of Airbnb website including landing and search results pages.
 * Javascript
 * React js
 
-**SCREENSHOTS:**
+##### SCREENSHOTS:
 Landing Page:
 
 ![Screenshot (199)](https://user-images.githubusercontent.com/65844743/116823343-96061f00-aba1-11eb-89d3-e9886695cdc8.png)
