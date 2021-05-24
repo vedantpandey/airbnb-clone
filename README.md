@@ -7,6 +7,8 @@ A Frontend clone of Airbnb website including landing and search results pages.
 * Javascript
 * React js
 
+##### Live Demo : https://airbnb-clone-c6d14c.netlify.app/
+
 ##### SCREENSHOTS:
 Landing Page:
 
